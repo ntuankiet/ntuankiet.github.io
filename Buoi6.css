@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	display: inline;
+	padding: 0 30px;
+}
+
+li:hover{
+	color: antiquewhite;
+}
+
+.h1-1{
+	text-align: right;
+}
+
+.h2-1{
+	text-align: right;
+}
+
+.p1-1{
+	text-align: right;
+}
+
+.p1-2{
+	text-align: center;
+}
+
+.grid-container{
+	background-color: cornsilk;
+	position: absolute;
+	top: 150px;
+	width: 100%;
+}
+
+.container{
+	background-image: url(1.jpg);
+	position: absolute;
+	width: 60%;
+	height: 100px;
+	left: 20%;
+	top: 50px;
+}
+
+.container-1{
+	position: absolute;
+	top: 330px;
+}
+
+.container-2{
+	background-image: url("2.jpg");
+	width: 80%;
+	height: 540px;
+	position: absolute;
+	top: 560px;
+	left: 10%;
+	background-repeat: no-repeat;
+}
+
+.ct-1{
+	background-color: antiquewhite;
+	position: absolute;
+	padding: 10%;
+	top: 140px;
+	left: 50%;
+	z-index: 2;
+}
+
+.img1{
+	position: absolute;
+	width: 50%;
+	top: 100px;
+	left: 10%;
+	z-index: 1;
+}
+
+.d1{
+	padding: 0 20px;
+}
+
+input{
+	margin: 0 20px;
+}
+
+label{
+	padding: 0 55px;
+}
+
+.header{
+	background-color: azure;
+}
