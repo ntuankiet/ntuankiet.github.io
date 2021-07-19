@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Reset CSS*/
+*{
+	margin: 0;
+}
+
+/*Header*/
+.hd-1{
+	height: 100px;
+	width: 100%;
+}
+
+.ul-1{
+	list-style-type: none;
+	float: right;
+}
+
+.li-1{
+	display: inline;
+	padding: 0 20px;
+}
+
+.hd-2{
+	float: left;
+	width: 55%;
+	padding: 0 20px;
+}
+
+.ul-2{
+	list-style-type: none;
+	display: inline;
+}
+
+.li-2{
+	display: inline;
+}
+
+.img-1{
+	width: 25%;
+	float: right;
+	padding: 0 20px;
+}
