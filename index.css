@@ -4,41 +4,257 @@
 /*Reset CSS*/
 *{
 	margin: 0;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 
 /*Header*/
-.hd-1{
-	height: 100px;
+.header{
+	float: left;
 	width: 100%;
+	height: auto;
+	background-image: url(Background.png);
 }
 
-.ul-1{
+.header-1{
+	height: 100px;
+}
+
+ul{
 	list-style-type: none;
 	float: right;
 }
 
-.li-1{
+li{
 	display: inline;
 	padding: 0 20px;
+	color: white;
 }
 
-.hd-2{
+li:hover{
+	color: aqua;
+}
+
+.header-2{
 	float: left;
-	width: 55%;
+	width: 45%;
+	padding: 0 5%;
+	color: white;
+}
+
+.bt-1{
+	display: grid;
+	grid-template-columns: auto auto;
+	padding: 20px;
+}
+
+.h4-1{
 	padding: 0 20px;
-}
-
-.ul-2{
-	list-style-type: none;
-	display: inline;
-}
-
-.li-2{
-	display: inline;
 }
 
 .img-1{
-	width: 25%;
 	float: right;
-	padding: 0 20px;
+	padding: 0 5%;
+}
+
+/*Content*/
+.content{
+	float: left;
+	width: 100%;
+	height: auto;
+	padding: 50px 0;
+}
+
+.content-1{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	padding: 50px 5%;
+}
+
+.img1-1{
+	width: 50%;
+}
+
+.content-2{
+	float: left;
+	width: 45%;
+	padding: 0 5%
+}
+
+.grid-content{
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+.p-1{
+	width: 70%;
+	text-align: center;
+	padding-bottom: 10px;
+	background-color: antiquewhite;
+}
+
+.img1-1{
+	width: 70%;
+	padding-top: 10%;
+}
+
+.content1{
+	float: left;
+	width: 100%;
+	height: auto;
+	padding: 50px 0;
+}
+
+.img1-2{
+	float: left;
+	width: 40%;
+	padding: 0 5%;
+}
+
+.content1-1{
+	float: right;
+	width: 40%;
+	padding: 0 5%;
+}
+
+.content1-2{
+	float: left;
+	width: 100%;
+	height: auto;
+	padding: 50px 0;
+	text-align: center;
+}
+
+.img1-3{
+	float: left;
+	width: 20%;
+	padding: 0 5%;
+}
+
+.content1-3{
+	float: right;
+	width: 45%;
+	padding: 0 5%;
+}
+
+.content1-4{
+	float: left;
+	padding: 50px 45%;
+}
+
+.content2{
+	float: left;
+	width: 100%;
+	height: auto;
+}
+
+.content2-1{
+	padding: 5% 50px;
+}
+
+.grid-content-1{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	background-image: url(Background1.png);
+}
+
+.list-1{
+	background-color: aliceblue;
+	padding: 50px 5%;
+	width: 40%;
+	height: 20px;
+	margin: 50px;
+	text-align: center;
+}
+
+.img2{
+	float: left;
+	width: 40%;
+	padding: 50px 5%;
+}
+
+.content2-2{
+	float: right;
+	width: 40%;
+	padding: 50px 5%;
+}
+
+.content3{
+	float: left;
+	width: 100%;
+	height: auto;
+	padding: 50px 0;
+}
+
+.content3-1{
+	padding: 0 5%;
+	text-align: center;
+}
+
+.content3-2{
+	float: left;
+	padding: 20px;
+}
+
+.img3-1{
+	float: left;
+	width: 10%;
+	padding: 0 1% 0 50%
+}
+
+.content3-3{
+	float: left;
+	width: 100%;
+	padding: 50px 0;
+	background-color: gray;
+}
+
+.grid-content3{
+	width: 80%;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 50px;
+}
+
+.bt3{
+	padding: 5%;
+	margin: 0 50px
+}
+
+.bt3-1{
+	padding: 5%;
+}
+
+/*Footer*/
+.footer{
+	float: left;
+	padding: 50px 0;
+}
+.footer{
+	width: 100%;
+	background-color: lightcyan;
+}
+
+
+.footer-1{
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+
+.h4-4{
+	padding: 0 150px;
+}
+
+.h4-4:hover{
+	color: gray;
+}
+
+.bt{
+	padding: 1% 5%;
+	margin: 5% 0
+}
+
+.footer-2{
+	float: right;
+	padding: 0 150px;
+	font-size: 14pt;
 }
