@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.row{
+	width: 80%;
+	padding: 0 10%;
+}
+
+.header-1 a{
+	text-decoration: none;
+	color: red;
+}
+
+.header-1 h1{
+	font-size: 48pt;
+	font-family: "Arial Black", "sans-serif";
+}
+
+.card-header{
+	width: 100%;
+}
+
+.col a{
+	text-decoration: none;
+	color: blue;
+}
+
+.col a:hover{
+	text-decoration: none;
+	color: darkgray;
+}
+
+.col h4{
+	font-size: 14pt;
+}
+
+.container a{
+	text-decoration: none;
+	color: blue;
+}
+
+.container a:hover{
+	text-decoration: none;
+	color: darkgray;
+}
+
+.card-footer h2{
+	color: gray;
+	font-size: 18pt;
+}
+
+main h5{
+	font-size: 14pt;
+}
+
+main p{
+	font-size: 12pt;
+}
+
+.section-2 a{
+	text-decoration: none;
+	color: blue;
+}
+
+.section-2 a:hover{
+	text-decoration: none;
+	color: darkgray;
+}
+
+.section-1 h5{
+	color: brown;
+}
